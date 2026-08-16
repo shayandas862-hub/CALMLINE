@@ -1,0 +1,96 @@
+{
+  "answer_keys": [
+    {
+      "covered": true,
+      "key": "S-code PAYE on income",
+      "reason": "The assistant clearly states that Scottish members taking drawdown income are subject to 'Scottish income tax rates on the pension income via PAYE with an S-code', which directly covers the key point about S-code PAYE on income."
+    },
+    {
+      "covered": true,
+      "key": "RAS 20% + claim extra",
+      "reason": "The assistant answer clearly covers the key point: it states that RAS adds 20% to contributions and that the member can claim extra relief above 20% via HMRC, which directly matches 'RAS 20% + claim extra'."
+    }
+  ],
+  "id": "E08",
+  "reply": {
+    "abstained": false,
+    "abstention_reason": "",
+    "answer_text": "A Scottish member taking drawdown income is subject to **Scottish income tax rates on the pension income via PAYE with an S-code**. Relief at source (RAS) still adds 20% to ongoing contributions. If the member is a Scottish intermediate-rate (21%), higher-rate (42%), advanced-rate (45%) or top-rate (48%) taxpayer, they claim the extra relief above 20% via HMRC. Starter-rate (19%) members keep the full 20% \u2014 HMRC does not claw it back.",
+    "citations": [
+      {
+        "chunk_id": "03-PEN:12",
+        "citation_style": "cite_source",
+        "effective_note": null,
+        "version": 1
+      },
+      {
+        "chunk_id": "03-PEN:3.4",
+        "citation_style": "cite_source",
+        "effective_note": null,
+        "version": 1
+      }
+    ],
+    "guardrail_events": [],
+    "tools_used": [
+      "retrieve_clause"
+    ]
+  },
+  "retrieved": [
+    {
+      "chunk_id": "03-PEN:III.6",
+      "rank": 1,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "06-RAGOPS:3.2",
+      "rank": 2,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "03-PEN:5",
+      "rank": 3,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "03-PEN:12",
+      "rank": 1,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "03-PEN:3.4",
+      "rank": 5,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "03-PEN:2",
+      "rank": 2,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "03-PEN:10a",
+      "rank": 3,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "03-PEN:III.2",
+      "rank": 4,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "02-BOND:2",
+      "rank": 5,
+      "score": 1.0,
+      "version": 1
+    }
+  ],
+  "tier": "M",
+  "trace_id": "baseline-012"
+}

@@ -1,0 +1,59 @@
+{
+  "answer_keys": [
+    {
+      "covered": false,
+      "key": "recognise as a complaint",
+      "reason": "The assistant provided no answer at all; there is nothing to evaluate against the requirement to recognize the customer's statement as a complaint."
+    },
+    {
+      "covered": false,
+      "key": "log CMP- same contact",
+      "reason": "The assistant provided no answer at all\u2014there is no content to evaluate against the requirement to log a complaint (CMP) for the same contact who has called multiple times."
+    }
+  ],
+  "id": "E37",
+  "reply": {
+    "abstained": true,
+    "abstention_reason": "The customer's frustration about repeated calls is a service concern, not a question about policy terms or process. Without knowing what issue they've called about three times, I cannot advise on whether the handling has been correct, what should happen next, or whether a complaint is needed. The handler should acknowledge their frustration, establish what the issue is, and resolve it or escalate to a supervisor.",
+    "answer_text": "",
+    "citations": [],
+    "guardrail_events": [],
+    "tools_used": [
+      "retrieve_clause"
+    ]
+  },
+  "retrieved": [
+    {
+      "chunk_id": "01-WOL:III.7",
+      "rank": 1,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "04-FCA:A9",
+      "rank": 2,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "05-OPS:11",
+      "rank": 3,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "05-OPS:22",
+      "rank": 4,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:9b",
+      "rank": 5,
+      "score": 1.0,
+      "version": 1
+    }
+  ],
+  "tier": "O",
+  "trace_id": "baseline-037"
+}

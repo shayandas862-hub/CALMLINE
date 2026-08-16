@@ -1,0 +1,66 @@
+# CalmLine — Render blueprint (AD-CL-008: free tier, single instance).
+#
+# This file is the deploy, written down. Render can read it directly (Blueprint →
+# point at this repo), or you can copy the same values into the dashboard by
+# hand; the README's Development section names what each one is for.
+#
+# NO SECRET IS IN THIS FILE and none ever should be. Every secret below carries
+# `sync: false`, which tells Render to ask for the value in the dashboard and
+# keep it out of the blueprint. The six required ones are exactly
+# `src/config.REQUIRED`, and `--prod` refuses to start without all six — naming
+# every one that is missing, in a single error, before it serves a request.
+
+services:
+  - type: web
+    name: calmline
+    runtime: python
+    plan: free
+    region: frankfurt          # nearest region to a UK-domiciled demo
+    branch: main
+    numInstances: 1            # one instance: the ledger and the trace store are in-memory
+    buildCommand: pip install -e .
+    # `--prod` is what turns on the config preflight, the spend rails, and
+    # binding beyond loopback. Running the bare script here would deploy a
+    # console that boots half-configured and answers nobody.
+    startCommand: python scripts/run_console.py --prod
+    # Render polls this. It is deliberately exempt from the rate limiter and
+    # from the session guard, and it answers 200 with the component states in
+    # the body — a health check that 500s gets the service restarted at exactly
+    # the moment somebody wants to read it.
+    healthCheckPath: /healthz
+
+    envVars:
+      # ── set here, visible, no secret ──────────────────────────────────
+      - key: CALMLINE_ENV
+        value: production
+      # The phase-6 hard gate, stated rather than inherited. Deleting this line
+      # does not break the deploy — it silently moves it onto whatever
+      # `run_console.DEFAULT_MODEL` happens to say.
+      - key: ANTHROPIC_MODEL
+        value: claude-haiku-4-5
+      - key: JUDGE_MODEL
+        value: claude-haiku-4-5
+      # Render puts exactly one proxy in front of the service. At 0, every
+      # visitor arrives wearing the proxy's address and the per-IP cap quietly
+      # becomes a second global one.
+      - key: TRUSTED_PROXY_HOPS
+        value: "1"
+      # AD-CL-008's rails. Tune from the dashboard; no deploy needed.
+      - key: RATE_LIMIT_PER_IP
+        value: "30"            # per hour, per address
+      - key: RATE_LIMIT_PER_DAY
+        value: "500"           # overall — this is the one that bounds the bill
+
+      # ── set in the dashboard only; never committed ────────────────────
+      - key: ANTHROPIC_API_KEY
+        sync: false
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: COHERE_API_KEY
+        sync: false
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_SERVICE_KEY
+        sync: false
+      - key: DATABASE_URL
+        sync: false

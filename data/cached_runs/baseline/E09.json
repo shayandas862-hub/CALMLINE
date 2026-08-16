@@ -1,0 +1,67 @@
+{
+  "answer_keys": [
+    {
+      "covered": true,
+      "key": "~\u00a36,000 via 30% \u00d7 effective rate",
+      "reason": "The assistant answer clearly covers the key point: it states the periodic charge is approximately \u00a36,000, derived from 30% \u00d7 effective rate (4.706%), which matches the answer key's indication of ~\u00a36,000 via 30% \u00d7 effective rate."
+    }
+  ],
+  "id": "E09",
+  "reply": {
+    "abstained": false,
+    "abstention_reason": "",
+    "answer_text": "A periodic charge applies at the 10-year anniversary on the amount by which the trust property exceeds the nil-rate band. With \u00a3425,000 in the trust and full NRB of \u00a3325,000 available, the charge is assessed on \u00a3100,000. The actual rate is 30% multiplied by the effective rate (20% tax on the excess divided by total property), which gives an effective rate of 4.706% and an actual rate of 1.412%. The resulting charge is approximately \u00a36,000. This uses the formal HMRC settlement-rate computation \u2014 the precise figure depends on the exact property value at the anniversary and how the available NRB is applied to your trust's facts.",
+    "citations": [
+      {
+        "chunk_id": "01-WOL:12.2",
+        "citation_style": "cite_source",
+        "effective_note": null,
+        "version": 1
+      },
+      {
+        "chunk_id": "01-WOL:4.3",
+        "citation_style": "cite_source",
+        "effective_note": null,
+        "version": 1
+      }
+    ],
+    "guardrail_events": [],
+    "tools_used": [
+      "retrieve_clause"
+    ]
+  },
+  "retrieved": [
+    {
+      "chunk_id": "01-WOL:4.3",
+      "rank": 1,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "06-RAGOPS:3.2",
+      "rank": 2,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:12.2",
+      "rank": 3,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:4.2",
+      "rank": 4,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:III.7",
+      "rank": 5,
+      "score": 1.0,
+      "version": 1
+    }
+  ],
+  "tier": "M",
+  "trace_id": "baseline-013"
+}

@@ -1,0 +1,66 @@
+{
+  "answer_keys": [
+    {
+      "covered": true,
+      "key": "yes",
+      "reason": "The assistant clearly states 'Yes, the 5% allowance is cumulative' and explains that unused allowances can be carried forward, which directly covers the answer key requirement that the bond 5% allowance is cumulative."
+    },
+    {
+      "covered": true,
+      "key": "deferral not exemption",
+      "reason": "The assistant's answer explicitly states 'It's a tax deferral, not an exemption,' which directly covers the key point that the 5% allowance provides deferral rather than exemption of tax liability."
+    }
+  ],
+  "id": "E02",
+  "reply": {
+    "abstained": false,
+    "abstention_reason": "",
+    "answer_text": "Yes, the 5% allowance is cumulative. You can carry forward unused allowances from earlier years up to a maximum of 100% of the amount invested. It's a tax deferral, not an exemption \u2014 withdrawals within the allowance are not immediately taxed, but they count towards the final gain on the bond.",
+    "citations": [
+      {
+        "chunk_id": "02-BOND:4.2",
+        "citation_style": "cite_source",
+        "effective_note": null,
+        "version": 1
+      }
+    ],
+    "guardrail_events": [],
+    "tools_used": [
+      "retrieve_clause"
+    ]
+  },
+  "retrieved": [
+    {
+      "chunk_id": "02-BOND:III.3",
+      "rank": 1,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "05-OPS:8.2",
+      "rank": 2,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "06-RAGOPS:3.1",
+      "rank": 3,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "02-BOND:3.7",
+      "rank": 4,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "02-BOND:4.2",
+      "rank": 5,
+      "score": 1.0,
+      "version": 1
+    }
+  ],
+  "tier": "R",
+  "trace_id": "baseline-002"
+}

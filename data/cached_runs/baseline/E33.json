@@ -1,0 +1,79 @@
+{
+  "answer_keys": [
+    {
+      "covered": true,
+      "key": "information only",
+      "reason": "The assistant's answer clearly covers the 'information only' key by explaining both drawdown and annuity options without offering personal financial advice, directing the customer to free guidance services instead, and explicitly stating 'we can't advise' while offering to explain how options work."
+    },
+    {
+      "covered": true,
+      "key": "no recommendation",
+      "reason": "The assistant clearly states 'we can't advise' and does not recommend either drawdown or annuity, instead directing the customer to impartial guidance sources and explaining that the choice depends on personal circumstances."
+    },
+    {
+      "covered": true,
+      "key": "signpost advice",
+      "reason": "The assistant clearly signposts the customer to free guidance services (Pension Wise and MoneyHelper) and explains what support is available, which directly covers the 'signpost advice' key requirement."
+    }
+  ],
+  "id": "E33",
+  "reply": {
+    "abstained": false,
+    "abstention_reason": "",
+    "answer_text": "That's a personal choice that depends on your circumstances \u2014 we can't advise. Both are options: drawdown lets you take flexibly from your invested pot and leave the rest working; an annuity uses your pot to buy a guaranteed income for life. You're entitled to free guidance from Pension Wise (if you're 50+) or MoneyHelper \u2014 they'll help you think through what suits you. If you'd like an annuity quote, you can shop around in the open market \u2014 you don't have to use us. What we can do is explain how either option works, and what the tax rules are.",
+    "citations": [
+      {
+        "chunk_id": "03-PEN:10a",
+        "citation_style": "mixed_explain",
+        "effective_note": null,
+        "version": 1
+      },
+      {
+        "chunk_id": "03-PEN:III.2",
+        "citation_style": "mixed_explain",
+        "effective_note": null,
+        "version": 1
+      }
+    ],
+    "guardrail_events": [
+      "answered_within_boundary"
+    ],
+    "tools_used": [
+      "retrieve_clause"
+    ]
+  },
+  "retrieved": [
+    {
+      "chunk_id": "03-PEN:9.2",
+      "rank": 1,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "03-PEN:9.6",
+      "rank": 2,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "03-PEN:10a",
+      "rank": 3,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "03-PEN:12",
+      "rank": 4,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "03-PEN:III.2",
+      "rank": 5,
+      "score": 1.0,
+      "version": 1
+    }
+  ],
+  "tier": "G",
+  "trace_id": "baseline-033"
+}

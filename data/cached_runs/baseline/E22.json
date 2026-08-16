@@ -1,0 +1,68 @@
+{
+  "answer_keys": [
+    {
+      "covered": true,
+      "key": "refuse: LPA \u2260 trusteeship",
+      "reason": "The assistant clearly states that an LPA gives the caller no power to act as trustee and that the role is personal, directly covering the key point that LPA does not equal trusteeship."
+    },
+    {
+      "covered": true,
+      "key": "s.36 deed route",
+      "reason": "The assistant's answer explicitly identifies and explains the s.36 deed route as the correct mechanism for trustee replacement, stating 'Your mum would need to be replaced as trustee by deed under the Trustee Act 1925, section 36,' which directly covers the answer key requirement."
+    }
+  ],
+  "id": "E22",
+  "reply": {
+    "abstained": false,
+    "abstention_reason": "",
+    "answer_text": "I'm not able to process trustee changes, but I can explain the route. An LPA gives you no power to act as trustee \u2014 that role is personal. Your mum would need to be replaced as trustee by deed under the Trustee Act 1925, section 36. This needs agreement of the other trustees (if any) and possibly Court of Protection consent if she has a beneficial interest in the trust. You'll need to speak to our senior case handler who manages trustee changes. They'll guide you on the deed and verification needed.",
+    "citations": [
+      {
+        "chunk_id": "01-WOL:II.6.13",
+        "citation_style": "mixed_explain",
+        "effective_note": null,
+        "version": 1
+      }
+    ],
+    "guardrail_events": [
+      "answered_within_boundary"
+    ],
+    "tools_used": [
+      "retrieve_clause"
+    ]
+  },
+  "retrieved": [
+    {
+      "chunk_id": "01-WOL:III.7",
+      "rank": 1,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:II.2",
+      "rank": 2,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:II.5",
+      "rank": 3,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:II.6.13",
+      "rank": 4,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:III.3",
+      "rank": 5,
+      "score": 1.0,
+      "version": 1
+    }
+  ],
+  "tier": "G",
+  "trace_id": "baseline-030"
+}

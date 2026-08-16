@@ -1,0 +1,243 @@
+{
+  "answer_keys": [
+    {
+      "covered": false,
+      "key": "25/75",
+      "reason": "The answer key '25/75' indicates a 25% tax-free / 75% taxable split, but the assistant states '\u00a35,000 tax-free; \u00a315,000 taxed' which is a 25% / 75% split in pounds (correct proportion) yet the answer does not explicitly state or clearly highlight the 25/75 ratio itself as the key point being tested."
+    },
+    {
+      "covered": true,
+      "key": "MPAA",
+      "reason": "The assistant's answer explicitly mentions 'Money Purchase Annual Allowance cap' and 'MPAA consequences', clearly covering the MPAA answer key point in substance."
+    },
+    {
+      "covered": true,
+      "key": "S-code emergency tax",
+      "reason": "The assistant answer explicitly covers the answer key by stating 'emergency S-code on month 1, likely over-deducting' and identifying that emergency tax will be applied, which addresses the S-code emergency tax requirement."
+    },
+    {
+      "covered": true,
+      "key": "P55",
+      "reason": "The assistant's answer explicitly mentions P55 as the mechanism for claiming back excess emergency tax, which directly covers the answer key requirement."
+    },
+    {
+      "covered": true,
+      "key": "irreversible",
+      "reason": "The assistant's answer explicitly covers the 'irreversible' concept by stating 'You cannot cancel or reverse the LSA/MPAA consequences, even if you return the money,' which directly addresses that the UFPLS action and its tax/allowance consequences are irreversible."
+    }
+  ],
+  "id": "E26",
+  "reply": {
+    "abstained": false,
+    "abstention_reason": "",
+    "answer_text": "A \u00a320,000 UFPLS for a Scottish member splits as: \u00a35,000 tax-free; \u00a315,000 taxed at your Scottish rates (emergency S-code on month 1, likely over-deducting). The payment triggers the \u00a310,000 Money Purchase Annual Allowance cap on future DC contributions, even on first draw. You cannot cancel or reverse the LSA/MPAA consequences, even if you return the money. Expect 5\u201310 business days for payment. You'll need to claim back excess emergency tax using P55 when fully complete, or Self Assessment.",
+    "citations": [
+      {
+        "chunk_id": "03-PEN:9.3",
+        "citation_style": "cite_source",
+        "effective_note": null,
+        "version": 1
+      },
+      {
+        "chunk_id": "05-OPS:8.3",
+        "citation_style": "mixed_explain",
+        "effective_note": null,
+        "version": 1
+      },
+      {
+        "chunk_id": "03-PEN:4.3",
+        "citation_style": "cite_source",
+        "effective_note": null,
+        "version": 1
+      },
+      {
+        "chunk_id": "03-PEN:12",
+        "citation_style": "cite_source",
+        "effective_note": null,
+        "version": 1
+      },
+      {
+        "chunk_id": "03-PEN:9.8",
+        "citation_style": "cite_source",
+        "effective_note": null,
+        "version": 1
+      },
+      {
+        "chunk_id": "03-PEN:6",
+        "citation_style": "mixed_explain",
+        "effective_note": null,
+        "version": 1
+      }
+    ],
+    "guardrail_events": [],
+    "tools_used": [
+      "retrieve_clause"
+    ]
+  },
+  "retrieved": [
+    {
+      "chunk_id": "05-OPS:8.3",
+      "rank": 1,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "05-OPS:21",
+      "rank": 2,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "03-PEN:14.1",
+      "rank": 3,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "03-PEN:III.2",
+      "rank": 1,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "03-PEN:III.5",
+      "rank": 3,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "03-PEN:9.3",
+      "rank": 3,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:1",
+      "rank": 4,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:4.1",
+      "rank": 5,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:2",
+      "rank": 1,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "02-BOND:2",
+      "rank": 2,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "03-PEN:6",
+      "rank": 1,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "07-RUNBOOK:8.2",
+      "rank": 4,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:5",
+      "rank": 5,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "06-RAGOPS:3.5",
+      "rank": 2,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "03-PEN:9.2",
+      "rank": 4,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "03-PEN:4.3",
+      "rank": 1,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "05-OPS:7",
+      "rank": 2,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "06-RAGOPS:3.2",
+      "rank": 1,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "03-PEN:3.4",
+      "rank": 5,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "03-PEN:II.15",
+      "rank": 2,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "04-FCA:B6",
+      "rank": 4,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "03-PEN:4.5",
+      "rank": 2,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "02-BOND:4.5",
+      "rank": 3,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "03-PEN:9.8",
+      "rank": 2,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "04-FCA:B5",
+      "rank": 3,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "03-PEN:9.1",
+      "rank": 5,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "03-PEN:12",
+      "rank": 2,
+      "score": 1.0,
+      "version": 1
+    }
+  ],
+  "tier": "M",
+  "trace_id": "baseline-018"
+}

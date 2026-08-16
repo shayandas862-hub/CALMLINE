@@ -1,0 +1,77 @@
+{
+  "answer_keys": [
+    {
+      "covered": true,
+      "key": "\u00a310,000",
+      "reason": "The assistant clearly states that the Money Purchase Annual Allowance (MPAA) amount is \u00a310,000 per year, which directly covers the answer key of \u00a310,000."
+    },
+    {
+      "covered": true,
+      "key": "FAD income/UFPLS",
+      "reason": "The assistant's answer explicitly states that the MPAA is triggered by 'flexi-access drawdown (FAD income) or any uncrystallised funds pension lump sum (UFPLS)', which directly covers the answer key requirement."
+    },
+    {
+      "covered": true,
+      "key": "not PCLS-only",
+      "reason": "The assistant's answer clearly covers the key point that MPAA is 'not PCLS-only' by explicitly stating that taking only a tax-free lump sum (PCLS) with no taxable income does not trigger the MPAA, while it is triggered by other forms of income such as FAD and UFPLS."
+    }
+  ],
+  "id": "E03",
+  "reply": {
+    "abstained": false,
+    "abstention_reason": "",
+    "answer_text": "The Money Purchase Annual Allowance is \u00a310,000 per year. It is triggered when you take taxable pension income through flexi-access drawdown (FAD income) or any uncrystallised funds pension lump sum (UFPLS). Taking only a tax-free lump sum (PCLS) with no taxable income does not trigger it.",
+    "citations": [
+      {
+        "chunk_id": "03-PEN:4.3",
+        "citation_style": "cite_source",
+        "effective_note": null,
+        "version": 1
+      },
+      {
+        "chunk_id": "03-PEN:9.1",
+        "citation_style": "cite_source",
+        "effective_note": null,
+        "version": 1
+      }
+    ],
+    "guardrail_events": [],
+    "tools_used": [
+      "retrieve_clause"
+    ]
+  },
+  "retrieved": [
+    {
+      "chunk_id": "03-PEN:9.1",
+      "rank": 1,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "06-RAGOPS:3.1",
+      "rank": 2,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "03-PEN:4.3",
+      "rank": 3,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "03-PEN:6",
+      "rank": 4,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "03-PEN:9.5",
+      "rank": 5,
+      "score": 1.0,
+      "version": 1
+    }
+  ],
+  "tier": "R",
+  "trace_id": "baseline-003"
+}

@@ -1,0 +1,144 @@
+{
+  "answer_keys": [
+    {
+      "covered": true,
+      "key": "25% no top-slicing vs beneficiary rates",
+      "reason": "The assistant clearly states the key distinction: trustee surrender after settlor death is taxed at 25% with no top-slicing, whereas appointing out to beneficiaries allows them to use their own personal rates with top-slicing relief available\u2014directly covering the answer key point about '25% no top-slicing vs beneficiary rates.'"
+    },
+    {
+      "covered": true,
+      "key": "exit charge",
+      "reason": "The assistant answer clearly covers the key point about exit charge by stating that 'when appointing out, you must check for an IHT exit charge based on complete quarters since the last 10-year anniversary,' which identifies exit charge as a material consideration in the appointor-out strategy."
+    }
+  ],
+  "id": "E10",
+  "reply": {
+    "abstained": false,
+    "abstention_reason": "",
+    "answer_text": "After the settlor dies, a trustee surrender is taxed at 25% net with no top-slicing. The better route is to appoint segments out to each adult beneficiary first, then they surrender using their own personal rates and top-slicing \u2013 often far lower tax. When appointing out, you must check for an IHT exit charge based on complete quarters since the last 10-year anniversary. Both routes require all trustees to sign with verified ID and current trust documentation.",
+    "citations": [
+      {
+        "chunk_id": "02-BOND:12.4",
+        "citation_style": "cite_source",
+        "effective_note": null,
+        "version": 1
+      },
+      {
+        "chunk_id": "02-BOND:12.5",
+        "citation_style": "cite_source",
+        "effective_note": null,
+        "version": 1
+      },
+      {
+        "chunk_id": "01-WOL:12.2",
+        "citation_style": "cite_source",
+        "effective_note": null,
+        "version": 1
+      },
+      {
+        "chunk_id": "02-BOND:II.6.10",
+        "citation_style": "mixed_explain",
+        "effective_note": null,
+        "version": 1
+      }
+    ],
+    "guardrail_events": [],
+    "tools_used": [
+      "retrieve_clause"
+    ]
+  },
+  "retrieved": [
+    {
+      "chunk_id": "02-BOND:III.7",
+      "rank": 1,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "06-RAGOPS:3.2",
+      "rank": 1,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:II.13",
+      "rank": 3,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "02-BOND:II.6.10",
+      "rank": 2,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "02-BOND:II.13",
+      "rank": 5,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "05-OPS:14",
+      "rank": 3,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "05-OPS:15",
+      "rank": 4,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "02-BOND:12.4",
+      "rank": 1,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "05-OPS:5.8",
+      "rank": 4,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "02-BOND:12.5",
+      "rank": 1,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "02-BOND:5",
+      "rank": 4,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:12.2",
+      "rank": 1,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:4.3",
+      "rank": 3,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:III.7",
+      "rank": 4,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "02-BOND:3.6",
+      "rank": 5,
+      "score": 1.0,
+      "version": 1
+    }
+  ],
+  "tier": "M",
+  "trace_id": "baseline-014"
+}

@@ -1,0 +1,114 @@
+{
+  "answer_keys": [
+    {
+      "covered": false,
+      "key": "trustees claim",
+      "reason": "The assistant's answer does not clearly state or emphasize that the claim should be made by the trustees, which is the substance of the key point 'trustees claim'. While the assistant mentions 'trustee identification' and references the trust structure, it does not explicitly establish that the trustees (rather than the executor) are the claimants for a trust-held policy."
+    },
+    {
+      "covered": true,
+      "key": "Confirmation not needed for trust asset",
+      "reason": "The assistant explicitly states 'we don't need Confirmation (Scottish probate equivalent)' which directly covers the key point that confirmation is not needed for trust assets."
+    }
+  ],
+  "id": "E13",
+  "reply": {
+    "abstained": false,
+    "abstention_reason": "",
+    "answer_text": "I'm very sorry for your loss. For a trust-held whole of life policy, we don't need Confirmation (Scottish probate equivalent) \u2014 that's an advantage of the trust structure. We'll ask for: the certified death certificate, the trust deed, and trustee identification. Once we have those and confirm premiums are paid, death claims are typically settled within 5 working days. I'll take your details now, and we'll send you a single requirements letter so you're not chasing back and forth.",
+    "citations": [
+      {
+        "chunk_id": "01-WOL:II.9.1",
+        "citation_style": "mixed_explain",
+        "effective_note": null,
+        "version": 1
+      },
+      {
+        "chunk_id": "01-WOL:III.2",
+        "citation_style": "mixed_explain",
+        "effective_note": null,
+        "version": 1
+      },
+      {
+        "chunk_id": "07-RUNBOOK:3.4",
+        "citation_style": "mixed_explain",
+        "effective_note": null,
+        "version": 1
+      }
+    ],
+    "guardrail_events": [],
+    "tools_used": [
+      "retrieve_clause"
+    ]
+  },
+  "retrieved": [
+    {
+      "chunk_id": "05-OPS:21",
+      "rank": 1,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "06-RAGOPS:3.3",
+      "rank": 2,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:12.3",
+      "rank": 3,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:III.2",
+      "rank": 3,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "05-OPS:20",
+      "rank": 5,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "07-RUNBOOK:3.4",
+      "rank": 1,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:II.9.1",
+      "rank": 2,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:III.5",
+      "rank": 4,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "05-OPS:9.1",
+      "rank": 5,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "06-RAGOPS:3.1",
+      "rank": 1,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:4.3",
+      "rank": 2,
+      "score": 1.0,
+      "version": 1
+    }
+  ],
+  "tier": "X",
+  "trace_id": "baseline-020"
+}

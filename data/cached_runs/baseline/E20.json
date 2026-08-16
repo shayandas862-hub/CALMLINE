@@ -1,0 +1,90 @@
+{
+  "answer_keys": [
+    {
+      "covered": true,
+      "key": "scenario split",
+      "reason": "The assistant's answer clearly covers the key point of 'scenario split' by explicitly contrasting the two different outcomes: January 2027 (before 6 April 2027) versus June 2027 (after 6 April 2027), showing how the regulatory change creates a material difference in IHT treatment between the two scenarios."
+    },
+    {
+      "covered": true,
+      "key": "estate-IHT from 6 Apr 2027",
+      "reason": "The assistant answer clearly covers the key point that estate-IHT applies from 6 April 2027 onwards\u2014specifically stating 'If death is in June 2027, after 6 April 2027, the unused pension falls into the member's estate for IHT first' and contrasting this with January 2027 where 'no pension-IHT charge applies under the old rules,' thus establishing the critical 6 April 2027 threshold for estate-IHT treatment."
+    }
+  ],
+  "id": "E20",
+  "reply": {
+    "abstained": false,
+    "abstention_reason": "",
+    "answer_text": "If death is in January 2027, the fund passes to the bypass trust income-tax-free (if within two years, pre-75) and no pension-IHT charge applies under the old rules. If death is in June 2027, after 6 April 2027, the unused pension falls into the member's estate for IHT first \u2014 the bypass trust does not avoid that estate IHT. A direct spouse payment would be spouse-exempt under the new rules; paying to the bypass trust is not. The bypass trust keeps control and second-death benefits, but at the cost of possible first-death IHT. Any existing expression of wishes naming a bypass trust should be reviewed in light of this change.",
+    "citations": [
+      {
+        "chunk_id": "03-PEN:III.7",
+        "citation_style": "mixed_explain",
+        "effective_note": null,
+        "version": 1
+      },
+      {
+        "chunk_id": "03-PEN:14.3",
+        "citation_style": "effective_date_required",
+        "effective_note": "Effective 6 April 2027",
+        "version": 1
+      },
+      {
+        "chunk_id": "03-PEN:14.2",
+        "citation_style": "cite_source",
+        "effective_note": null,
+        "version": 1
+      }
+    ],
+    "guardrail_events": [],
+    "tools_used": [
+      "retrieve_clause"
+    ]
+  },
+  "retrieved": [
+    {
+      "chunk_id": "03-PEN:III.7",
+      "rank": 1,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "03-PEN:14.3",
+      "rank": 2,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "03-PEN:14.4",
+      "rank": 3,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "06-RAGOPS:3.4",
+      "rank": 4,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "03-PEN:14.1",
+      "rank": 1,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:10",
+      "rank": 2,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "03-PEN:14.2",
+      "rank": 3,
+      "score": 1.0,
+      "version": 1
+    }
+  ],
+  "tier": "T",
+  "trace_id": "baseline-026"
+}

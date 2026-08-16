@@ -1,0 +1,66 @@
+{
+  "answer_keys": [
+    {
+      "covered": true,
+      "key": "no \u2014 maker \u2260 checker",
+      "reason": "The assistant's answer clearly covers the key point that the same processor cannot check their own payment case, explicitly stating the 'maker \u2260 checker' rule that is required by the answer key."
+    },
+    {
+      "covered": true,
+      "key": "four-eyes",
+      "reason": "The assistant's answer explicitly states and explains the concept of 'four-eyes' as the key principle, correctly identifying it as the requirement that the maker and checker must be different people, and provides relevant examples of where it applies."
+    }
+  ],
+  "id": "E39",
+  "reply": {
+    "abstained": false,
+    "abstention_reason": "",
+    "answer_text": "No. The same processor cannot check their own payment case. The rule is 'maker \u2260 checker' \u2014 the person who processes the payment must be different from the person who checks it. Both must independently re-check the evidence and recalculate the figure. This is called four-eyes, and it applies to any payment out, any change of bank mandate, any beneficiary or trustee change, any claim assessment, any redress calculation, and any manual override of a system figure.",
+    "citations": [
+      {
+        "chunk_id": "07-RUNBOOK:4.3",
+        "citation_style": "aldercrest_standard",
+        "effective_note": null,
+        "version": 1
+      }
+    ],
+    "guardrail_events": [],
+    "tools_used": [
+      "retrieve_clause"
+    ]
+  },
+  "retrieved": [
+    {
+      "chunk_id": "06-RAGOPS:3.6",
+      "rank": 1,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "07-RUNBOOK:4.3",
+      "rank": 2,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:II.6.11",
+      "rank": 3,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:II.6.13",
+      "rank": 4,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:II.9.1",
+      "rank": 5,
+      "score": 1.0,
+      "version": 1
+    }
+  ],
+  "tier": "O",
+  "trace_id": "baseline-039"
+}

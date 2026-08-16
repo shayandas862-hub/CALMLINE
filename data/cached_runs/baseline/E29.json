@@ -1,0 +1,72 @@
+{
+  "answer_keys": [
+    {
+      "covered": false,
+      "key": "watch flag + step-up + CoP + APP + safeguarding pause",
+      "reason": "The assistant mentions fraud referral but does not explicitly address the five specific required compliance elements: watch flag, step-up (verification), CoP (Confirmation of Payee), APP (Authorised Push Payment), or safeguarding pause procedures."
+    }
+  ],
+  "id": "E29",
+  "reply": {
+    "abstained": true,
+    "abstention_reason": "Suspected impersonation fraud: coached caller, bank change, then \u00a340k withdrawal within 2 weeks. This matches step-up triggers and social-engineering patterns requiring Financial Crime referral, not front-office clearance.",
+    "answer_text": "I'm not able to proceed with this request. A bank change followed by a large withdrawal, combined with audible coaching, is a pattern we must treat as suspected fraud. This must be referred to our Financial Crime team without further action on the transaction. The caller should be offered to confirm their request through their registered address or secure portal instead.",
+    "citations": [],
+    "guardrail_events": [],
+    "tools_used": [
+      "retrieve_clause"
+    ]
+  },
+  "retrieved": [
+    {
+      "chunk_id": "05-OPS:3.3",
+      "rank": 1,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:II.3",
+      "rank": 2,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:II.6.1",
+      "rank": 3,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:II.6.3",
+      "rank": 4,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "02-BOND:II.3",
+      "rank": 5,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:II.2",
+      "rank": 1,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "05-OPS:13.1",
+      "rank": 3,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:II.4.1",
+      "rank": 4,
+      "score": 1.0,
+      "version": 1
+    }
+  ],
+  "tier": "X",
+  "trace_id": "baseline-022"
+}

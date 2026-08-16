@@ -1,0 +1,26 @@
+{
+  "answer_keys": [
+    {
+      "covered": false,
+      "key": "abstain and hand off",
+      "reason": "The assistant declines to answer the question entirely rather than stating what it should do when retrieval returns conflicting chunks (abstain and hand off); the refusal to engage prevents any coverage of the required answer key."
+    },
+    {
+      "covered": false,
+      "key": "abstention is a success state",
+      "reason": "The assistant's answer does not address the key point about abstention being a success state when retrieval returns conflicting chunks; instead it deflects by claiming the question is about internal process and redirects to customer insurance matters."
+    }
+  ],
+  "id": "E44",
+  "reply": {
+    "abstained": true,
+    "abstention_reason": "This is a meta-question about the AI system itself, not a customer-service inquiry about insurance.",
+    "answer_text": "I cannot answer this question because it is about my internal process, not about a customer's insurance. I can only help with questions about Aldercrest policies and claims. Is there something about your coverage or a claim I can help with?",
+    "citations": [],
+    "guardrail_events": [],
+    "tools_used": []
+  },
+  "retrieved": [],
+  "tier": "O",
+  "trace_id": "baseline-044"
+}

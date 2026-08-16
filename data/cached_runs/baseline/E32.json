@@ -1,0 +1,61 @@
+{
+  "answer_keys": [
+    {
+      "covered": true,
+      "key": "period 1 Jan \u2013 30 Jun 2027 (PS25/19)",
+      "reason": "The assistant answer clearly states the period of the first consolidated complaints return as 1 January to 30 June 2027, which directly matches the answer key's period specification (1 Jan \u2013 30 Jun 2027), though it does not reference the specific regulatory document (PS25/19)."
+    }
+  ],
+  "id": "E32",
+  "reply": {
+    "abstained": false,
+    "abstention_reason": "",
+    "answer_text": "The first consolidated complaints return covers the period 1 January to 30 June 2027.",
+    "citations": [
+      {
+        "chunk_id": "04-FCA:A9a",
+        "citation_style": "cite_source",
+        "effective_note": null,
+        "version": 1
+      }
+    ],
+    "guardrail_events": [],
+    "tools_used": [
+      "retrieve_clause"
+    ]
+  },
+  "retrieved": [
+    {
+      "chunk_id": "01-WOL:II.15",
+      "rank": 1,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "04-FCA:A9a",
+      "rank": 2,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "05-OPS:11.5",
+      "rank": 3,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "05-OPS:16.3",
+      "rank": 4,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "05-OPS:Document control",
+      "rank": 5,
+      "score": 1.0,
+      "version": 1
+    }
+  ],
+  "tier": "T",
+  "trace_id": "baseline-028"
+}

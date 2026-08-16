@@ -1,0 +1,26 @@
+{
+  "answer_keys": [
+    {
+      "covered": false,
+      "key": "no \u2014 tracked, never targeted",
+      "reason": "The assistant declined to answer the question entirely, rather than addressing the substance of the answer key which requires stating that contacts should not be contained/targeted and that they are only tracked. The assistant's response does not cover the factual point that needs to be conveyed."
+    },
+    {
+      "covered": false,
+      "key": "measure routing and quality",
+      "reason": "The assistant declined to answer the question and redirected to customer service, but did not address or cover the answer key point about measuring routing and quality."
+    }
+  ],
+  "id": "E43",
+  "reply": {
+    "abstained": true,
+    "abstention_reason": "The question is about AI/business strategy, not about insurance policy terms, customer entitlements, or claims. The knowledge base contains insurance policy clauses only, not strategic guidance.",
+    "answer_text": "I'm not able to answer questions about AI strategy or business operations. I'm here to help with customer service on life insurance policies and claims. Is there something about your insurance cover I can help you with?",
+    "citations": [],
+    "guardrail_events": [],
+    "tools_used": []
+  },
+  "retrieved": [],
+  "tier": "O",
+  "trace_id": "baseline-043"
+}

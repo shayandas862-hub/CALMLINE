@@ -1,0 +1,6 @@
+{
+  "answer_keys": [],
+  "error": "AgentError: the agent cited 07-RUNBOOK:8.4, which retrieval did not return \u2014 a citation nobody can follow is a fabricated one",
+  "id": "E34",
+  "tier": "G"
+}

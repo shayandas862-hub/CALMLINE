@@ -1,0 +1,199 @@
+{
+  "answer_keys": [
+    {
+      "covered": false,
+      "key": "OPG verify + EV + method comparison + abuse screen",
+      "reason": "The answer covers OPG verification, enhanced verification (EV), and abuse screening, but fails to clearly address 'method comparison' as a distinct requirement\u2014while tax implications of different withdrawal methods are mentioned, there is no explicit statement that both methods will be formally compared or presented side-by-side before the LPA holder decides, which is the core compliance requirement."
+    }
+  ],
+  "id": "E12",
+  "reply": {
+    "abstained": false,
+    "abstention_reason": "",
+    "answer_text": "We can help with that. First, we must verify the LPA is registered with the Office of the Public Guardian \u2014 we'll use their online service or ask to see the stamped paper certificate. Then, because this is a new account, we'll carry out enhanced verification of the LPA holder's identity and confirm the payee details. We'll also apply safeguarding checks for fraud. Once these pass, the process depends on how you want to take the money. A partial withdrawal of \u00a330,000 may trigger tax on an artificial gain (the amount above the bond's cumulative 5% allowance). Surrendering whole segments instead often produces a smaller gain, tracking real growth. We must show you both routes before you decide. We cannot process without completing the LPA check, identity verification, and fraud screening first.",
+    "citations": [
+      {
+        "chunk_id": "05-OPS:5.2",
+        "citation_style": "cite_source",
+        "effective_note": null,
+        "version": 1
+      },
+      {
+        "chunk_id": "01-WOL:II.5",
+        "citation_style": "cite_source",
+        "effective_note": null,
+        "version": 1
+      },
+      {
+        "chunk_id": "05-OPS:6.3",
+        "citation_style": "aldercrest_standard",
+        "effective_note": null,
+        "version": 1
+      },
+      {
+        "chunk_id": "02-BOND:4.9",
+        "citation_style": "cite_source",
+        "effective_note": null,
+        "version": 1
+      },
+      {
+        "chunk_id": "05-OPS:13.2",
+        "citation_style": "mixed_explain",
+        "effective_note": null,
+        "version": 1
+      }
+    ],
+    "guardrail_events": [],
+    "tools_used": [
+      "retrieve_clause"
+    ]
+  },
+  "retrieved": [
+    {
+      "chunk_id": "01-WOL:II.5",
+      "rank": 1,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "05-OPS:5.2",
+      "rank": 2,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "05-OPS:20",
+      "rank": 3,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "03-PEN:II.2",
+      "rank": 4,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "05-OPS:5.8",
+      "rank": 5,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "06-RAGOPS:3.3",
+      "rank": 1,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "02-BOND:III.5",
+      "rank": 2,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "05-OPS:7",
+      "rank": 3,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "05-OPS:15",
+      "rank": 4,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "05-OPS:21",
+      "rank": 1,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:II.2",
+      "rank": 1,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:II.6.13",
+      "rank": 3,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "02-BOND:II.2",
+      "rank": 4,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:II.3",
+      "rank": 1,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "05-OPS:6.3",
+      "rank": 3,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "05-OPS:13.2",
+      "rank": 4,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "06-RAGOPS:3.2",
+      "rank": 1,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "02-BOND:5",
+      "rank": 2,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "02-BOND:III.2",
+      "rank": 3,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "02-BOND:III.3",
+      "rank": 3,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:II.12",
+      "rank": 3,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "02-BOND:III.7",
+      "rank": 4,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "03-PEN:II.12",
+      "rank": 5,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "02-BOND:4.9",
+      "rank": 1,
+      "score": 1.0,
+      "version": 1
+    }
+  ],
+  "tier": "X",
+  "trace_id": "baseline-019"
+}

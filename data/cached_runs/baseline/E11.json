@@ -1,0 +1,108 @@
+{
+  "answer_keys": [
+    {
+      "covered": true,
+      "key": "nominee \u2192 successor drawdown",
+      "reason": "The assistant clearly covers the key point: the fund passes to a nominated beneficiary (nominee) who can continue as a successor drawdown, with the pension remaining invested in the wrapper."
+    },
+    {
+      "covered": true,
+      "key": "tax resets post-75",
+      "reason": "The assistant clearly states that 'the tax position resets based on the successor's age at the time they inherit,' which directly covers the key point that tax resets post-75."
+    }
+  ],
+  "id": "E11",
+  "reply": {
+    "abstained": false,
+    "abstention_reason": "",
+    "answer_text": "When the spouse dies at 79, the fund can pass to a nominated beneficiary as a successor drawdown \u2014 the pension stays invested in the wrapper. Because the spouse was over 75 at death, any income drawn by the successor will be taxed at the successor's marginal rate. The tax position resets based on the successor's age at the time they inherit. From 6 April 2027, the fund will also fall within the spouse's estate for inheritance tax purposes (though spouse-to-spouse transfers are still exempt from IHT).",
+    "citations": [
+      {
+        "chunk_id": "03-PEN:9.6",
+        "citation_style": "cite_source",
+        "effective_note": null,
+        "version": 1
+      },
+      {
+        "chunk_id": "03-PEN:9.7",
+        "citation_style": "cite_source",
+        "effective_note": null,
+        "version": 1
+      }
+    ],
+    "guardrail_events": [],
+    "tools_used": [
+      "retrieve_clause"
+    ]
+  },
+  "retrieved": [
+    {
+      "chunk_id": "06-RAGOPS:3.2",
+      "rank": 1,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "02-BOND:III.2",
+      "rank": 2,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "03-PEN:II.14",
+      "rank": 3,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "03-PEN:III.6",
+      "rank": 4,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "03-PEN:III.7",
+      "rank": 1,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "03-PEN:9.6",
+      "rank": 3,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "05-OPS:15",
+      "rank": 4,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:1",
+      "rank": 5,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "03-PEN:9.7",
+      "rank": 1,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "03-PEN:III.3",
+      "rank": 3,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "05-OPS:20",
+      "rank": 4,
+      "score": 1.0,
+      "version": 1
+    }
+  ],
+  "tier": "M",
+  "trace_id": "baseline-015"
+}

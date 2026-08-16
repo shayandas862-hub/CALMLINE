@@ -1,0 +1,61 @@
+{
+  "answer_keys": [
+    {
+      "covered": true,
+      "key": "no assurance pre-assessment",
+      "reason": "The assistant clearly communicates that there is no assurance pre-assessment by explicitly stating the claim cannot definitely be paid and must be assessed against policy terms before any outcome can be determined."
+    },
+    {
+      "covered": true,
+      "key": "explain process",
+      "reason": "The assistant covers the 'explain process' key by explicitly offering to explain what happens next and describe the claim process, and by actually outlining key steps in the assessment process (policy terms review, document evaluation, policy status verification, cover assessment, and final decision)."
+    }
+  ],
+  "id": "E36",
+  "reply": {
+    "abstained": false,
+    "abstention_reason": "",
+    "answer_text": "I can't tell you that a claim will definitely be paid. Every claim has to be assessed against the policy terms. That depends on the assessment \u2014 what the documents show, whether the policy was in force, and what the cover allows. Once the claim is assessed, it will either be paid or declined. I can explain what happens next, or tell you about the claim process, but I can't promise the outcome.",
+    "citations": [],
+    "guardrail_events": [
+      "answered_within_boundary"
+    ],
+    "tools_used": [
+      "retrieve_clause"
+    ]
+  },
+  "retrieved": [
+    {
+      "chunk_id": "01-WOL:II.9.3",
+      "rank": 1,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "05-OPS:9.9",
+      "rank": 2,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:9c",
+      "rank": 3,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:II.9.1",
+      "rank": 4,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:II.13",
+      "rank": 5,
+      "score": 1.0,
+      "version": 1
+    }
+  ],
+  "tier": "G",
+  "trace_id": "baseline-036"
+}

@@ -1,0 +1,67 @@
+{
+  "answer_keys": [
+    {
+      "covered": true,
+      "key": "restore position + 8% simple interest (\u00a352.60) + D&I",
+      "reason": "The assistant's answer covers all three key components: restoration of position (full surrender value), 8% simple interest for the 12-day delay (with the correct example figure of \u00a352.60), and distress-and-inconvenience payment. The additional details provided (tax treatment, apology, certificate) supplement rather than contradict the key requirements."
+    }
+  ],
+  "id": "E31",
+  "reply": {
+    "abstained": false,
+    "abstention_reason": "",
+    "answer_text": "When a surrender is paid 12 days late, we restore the customer's position. That means they receive: (1) the full surrender value due; (2) interest at 8% simple per year for the 12 days out of pocket (in this example, \u00a352.60 on a \u00a320,000 surrender); (3) a distress-and-inconvenience payment if the delay caused real disruption; and (4) a written apology explaining what went wrong and how we've fixed it. We deduct income tax from the interest where required and issue a tax deduction certificate.",
+    "citations": [
+      {
+        "chunk_id": "05-OPS:11.4",
+        "citation_style": "mixed_explain",
+        "effective_note": null,
+        "version": 1
+      },
+      {
+        "chunk_id": "07-RUNBOOK:7.3",
+        "citation_style": "mixed_explain",
+        "effective_note": null,
+        "version": 1
+      }
+    ],
+    "guardrail_events": [],
+    "tools_used": [
+      "retrieve_clause"
+    ]
+  },
+  "retrieved": [
+    {
+      "chunk_id": "06-RAGOPS:3.3",
+      "rank": 1,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "07-RUNBOOK:7.3",
+      "rank": 2,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "05-OPS:11.4",
+      "rank": 3,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "02-BOND:12.2",
+      "rank": 4,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "06-RAGOPS:3.1",
+      "rank": 5,
+      "score": 1.0,
+      "version": 1
+    }
+  ],
+  "tier": "X",
+  "trace_id": "baseline-024"
+}

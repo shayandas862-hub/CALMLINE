@@ -1,0 +1,71 @@
+{
+  "answer_keys": [
+    {
+      "covered": true,
+      "key": "CHAPS",
+      "reason": "The assistant answer clearly identifies CHAPS as the payment rail for amounts above \u00a3250,000, which directly covers the answer key requirement."
+    },
+    {
+      "covered": true,
+      "key": "senior authorisation",
+      "reason": "The assistant's answer explicitly states that payments above \u00a3250,000 require senior authorisation, which directly covers the answer key point."
+    },
+    {
+      "covered": true,
+      "key": "same day",
+      "reason": "The assistant clearly states that CHAPS (the payment rail for amounts above \u00a3250,000) is a 'same-day payment rail', which directly covers the answer key requirement of 'same day'."
+    }
+  ],
+  "id": "E28",
+  "reply": {
+    "abstained": false,
+    "abstention_reason": "",
+    "answer_text": "Payments above \u00a3250,000 use CHAPS. This is a same-day payment rail and requires senior authorisation.",
+    "citations": [
+      {
+        "chunk_id": "07-RUNBOOK:5.2",
+        "citation_style": "mixed_explain",
+        "effective_note": null,
+        "version": 1
+      }
+    ],
+    "guardrail_events": [],
+    "tools_used": [
+      "retrieve_clause"
+    ]
+  },
+  "retrieved": [
+    {
+      "chunk_id": "06-RAGOPS:3.1",
+      "rank": 1,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "05-OPS:9.9",
+      "rank": 2,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "05-OPS:14",
+      "rank": 3,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "07-RUNBOOK:5.2",
+      "rank": 4,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:II.6.9",
+      "rank": 5,
+      "score": 1.0,
+      "version": 1
+    }
+  ],
+  "tier": "R",
+  "trace_id": "baseline-009"
+}

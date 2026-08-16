@@ -1,0 +1,6 @@
+{
+  "answer_keys": [],
+  "error": "AgentError: the agent cited 02-BOND:4.5, 02-BOND:11, which retrieval did not return \u2014 a citation nobody can follow is a fabricated one",
+  "id": "E07",
+  "tier": "M"
+}

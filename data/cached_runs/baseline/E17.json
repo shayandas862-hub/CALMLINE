@@ -1,0 +1,84 @@
+{
+  "answer_keys": [
+    {
+      "covered": true,
+      "key": "discounted gift only",
+      "reason": "The assistant clearly states that 'only the discounted gift is inside the estate' at year 3, which directly covers the answer key requirement. The additional explanation about retained payments being carved out reinforces this core point."
+    },
+    {
+      "covered": true,
+      "key": "retained payments carved out",
+      "reason": "The assistant's answer explicitly states that 'the retained payments have been carved out and are no longer part of it,' which directly covers the key point that retained payments are carved out from what is inside the estate at year 3."
+    }
+  ],
+  "id": "E17",
+  "reply": {
+    "abstained": false,
+    "abstention_reason": "",
+    "answer_text": "In a discounted gift trust (DGT) at year 3, only the discounted gift is inside the estate. The retained payments have been carved out and are no longer part of it. The discounted amount is the original investment minus the actuarial discount value of the settlor's retained payments \u2014 the portion that left the estate immediately when the trust was set up.",
+    "citations": [
+      {
+        "chunk_id": "02-BOND:12.3",
+        "citation_style": "mixed_explain",
+        "effective_note": null,
+        "version": 1
+      }
+    ],
+    "guardrail_events": [],
+    "tools_used": [
+      "retrieve_clause"
+    ]
+  },
+  "retrieved": [
+    {
+      "chunk_id": "06-RAGOPS:3.2",
+      "rank": 1,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:1",
+      "rank": 2,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:4.3",
+      "rank": 3,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "02-BOND:10",
+      "rank": 4,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "02-BOND:12.2",
+      "rank": 5,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "02-BOND:12.3",
+      "rank": 1,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "02-BOND:III.7",
+      "rank": 3,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "02-BOND:II.6.10",
+      "rank": 4,
+      "score": 1.0,
+      "version": 1
+    }
+  ],
+  "tier": "M",
+  "trace_id": "baseline-016"
+}

@@ -1,0 +1,66 @@
+{
+  "answer_keys": [
+    {
+      "covered": true,
+      "key": "one month",
+      "reason": "The assistant answer clearly states the primary deadline is 'one calendar month from receipt', which directly covers the answer key requirement of 'one month'."
+    },
+    {
+      "covered": false,
+      "key": "+2 months if complex",
+      "reason": "The answer key states '+2 months if complex' but the assistant says 'up to two further months' (which is +2 months maximum, not definitively +2 months). More critically, the answer key appears to require stating that a +2 month extension is available for complex cases, and while the assistant does mention this possibility, it phrases it as 'up to two further months' rather than clearly stating '+2 months' as the extension period for complex SARs. The key point of '+2 months if complex' is substantially covered but the phrasing 'up to two' introduces ambiguity about whether the full two months is actually granted for complexity."
+    }
+  ],
+  "id": "E05",
+  "reply": {
+    "abstained": false,
+    "abstention_reason": "",
+    "answer_text": "One calendar month from receipt. This can be extended by up to two further months if the request is complex or involves numerous records \u2014 but the reason for the extension must be told within the first month.",
+    "citations": [
+      {
+        "chunk_id": "05-OPS:4.7",
+        "citation_style": "cite_source",
+        "effective_note": null,
+        "version": 1
+      }
+    ],
+    "guardrail_events": [],
+    "tools_used": [
+      "retrieve_clause"
+    ]
+  },
+  "retrieved": [
+    {
+      "chunk_id": "05-OPS:4.7",
+      "rank": 1,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "06-RAGOPS:3.1",
+      "rank": 2,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "02-BOND:II.4.4",
+      "rank": 3,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "03-PEN:10a",
+      "rank": 4,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "03-PEN:II.3",
+      "rank": 5,
+      "score": 1.0,
+      "version": 1
+    }
+  ],
+  "tier": "R",
+  "trace_id": "baseline-005"
+}

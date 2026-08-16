@@ -1,0 +1,72 @@
+{
+  "answer_keys": [
+    {
+      "covered": true,
+      "key": "SEV1 vs tolerance",
+      "reason": "The assistant answer explicitly addresses the answer key by distinguishing between SEV1 (highest severity) and tolerance threshold, directly stating 'The delay depends on whether it's flagged as a SEV1 (highest severity) or within our tolerance threshold,' which covers the core concept that system downtime classification matters for response handling."
+    },
+    {
+      "covered": true,
+      "key": "manual paper workaround with dual sign-off",
+      "reason": "The assistant's answer explicitly states 'manual paper workaround' and 'dual sign-off (two signatories required)', which directly covers the key point about the manual paper workaround with dual sign-off process."
+    }
+  ],
+  "id": "E42",
+  "reply": {
+    "abstained": false,
+    "abstention_reason": "",
+    "answer_text": "If the claims system is down, the back office switches to a manual paper workaround. Claims can still be assessed and authorised on paper with dual sign-off (two signatories required). A system outage is not a defence for delaying payment \u2014 we remain accountable to pay claims in full. The delay depends on whether it's flagged as a SEV1 (highest severity) or within our tolerance threshold.",
+    "citations": [
+      {
+        "chunk_id": "06-RAGOPS:3.6",
+        "citation_style": "aldercrest_standard",
+        "effective_note": null,
+        "version": 1
+      },
+      {
+        "chunk_id": "07-RUNBOOK:6.4",
+        "citation_style": "mixed_explain",
+        "effective_note": null,
+        "version": 1
+      }
+    ],
+    "guardrail_events": [],
+    "tools_used": [
+      "retrieve_clause"
+    ]
+  },
+  "retrieved": [
+    {
+      "chunk_id": "06-RAGOPS:3.6",
+      "rank": 1,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "07-RUNBOOK:6.4",
+      "rank": 2,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:III.2",
+      "rank": 3,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "04-FCA:A14",
+      "rank": 4,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "07-RUNBOOK:1.1",
+      "rank": 5,
+      "score": 1.0,
+      "version": 1
+    }
+  ],
+  "tier": "O",
+  "trace_id": "baseline-042"
+}

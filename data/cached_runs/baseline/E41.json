@@ -1,0 +1,66 @@
+{
+  "answer_keys": [
+    {
+      "covered": false,
+      "key": "gone-away flag",
+      "reason": "The assistant's answer does not mention flagging the customer as 'gone away' or creating a gone-away flag in the system, which is the required key point for handling returned mail situations."
+    },
+    {
+      "covered": false,
+      "key": "verify via customer, not caller",
+      "reason": "The assistant's answer does not clearly state that the address should be verified directly with the customer rather than accepting it from the caller; it discusses verification in general and updating via back office but does not explicitly address the key requirement to verify the new address via the customer themselves, not through the caller."
+    }
+  ],
+  "id": "E41",
+  "reply": {
+    "abstained": false,
+    "abstention_reason": "",
+    "answer_text": "I can help with this, but I need to verify the customer's identity first. Once verified, we can update the address on the system \u2014 it's usually done same day. We'll send confirmation letters to both the old and new addresses. However, I'm not able to handle this directly as a front-office assistant \u2014 you'll need to pass this to the back office with the new address, and they will update it.",
+    "citations": [
+      {
+        "chunk_id": "01-WOL:II.6.1",
+        "citation_style": "aldercrest_standard",
+        "effective_note": null,
+        "version": 1
+      }
+    ],
+    "guardrail_events": [],
+    "tools_used": [
+      "retrieve_clause"
+    ]
+  },
+  "retrieved": [
+    {
+      "chunk_id": "05-OPS:20",
+      "rank": 1,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:9a",
+      "rank": 2,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:II.6.1",
+      "rank": 3,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "05-OPS:15",
+      "rank": 4,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:6",
+      "rank": 5,
+      "score": 1.0,
+      "version": 1
+    }
+  ],
+  "tier": "O",
+  "trace_id": "baseline-041"
+}

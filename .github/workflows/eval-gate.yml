@@ -1,0 +1,51 @@
+name: eval-gate
+
+# The release gate: on every PR, re-score the committed cached run against the
+# recorded baseline and FAIL if a guardrail case stopped withholding or any
+# protected metric regressed. Scores CACHED outputs only — zero live model
+# calls, zero spend, no secrets.
+#
+# Three checks, cheapest first, and each closes a different way around the gate:
+#   1. the committed golden set still matches what the KB says — nobody edited
+#      the exam paper without re-deriving it from the syllabus;
+#   2. no frozen case was edited or removed — nobody tuned the exam to the
+#      candidate (`06-RAGOPS §3.0`, append-only);
+#   3. the cached run still scores at or above the recorded baseline, and no
+#      Tier G case failed at all.
+#
+# Until the first baseline run is committed the gate reports itself inactive and
+# passes — honest, rather than passing silently as though it had checked
+# something.
+
+on:
+  pull_request:
+
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e ".[dev]"
+
+      - name: The golden set still matches the KB it was derived from
+        run: python scripts/build_golden_from_kb.py --check
+
+      - name: No frozen case was edited or removed (append-only)
+        run: python scripts/freeze_goldens.py grow-only
+
+      - name: Eval regression gate (cached outputs only — no live calls, no secrets)
+        run: |
+          if [ ! -f src/evals/baseline.json ]; then
+            echo "eval gate inactive — no baseline recorded yet (activates at the first committed baseline run)"
+            exit 0
+          fi
+          python scripts/eval_gate.py baseline

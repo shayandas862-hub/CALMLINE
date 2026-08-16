@@ -1,0 +1,66 @@
+{
+  "answer_keys": [
+    {
+      "covered": false,
+      "key": "no \u2014 `P-3P` is internal-side",
+      "reason": "The assistant answer contradicts the key by stating 'The SLA clock does not stop; it continues to run' when the key explicitly states that for P-3P (internal-side pend), the clock should stop. The assistant has the classification correct but reaches the opposite conclusion on whether the SLA clock stops."
+    },
+    {
+      "covered": true,
+      "key": "clock runs",
+      "reason": "The assistant clearly states 'The SLA clock does not stop; it continues to run,' which directly covers the answer key 'clock runs.' The answer also correctly explains that third-party pends like awaiting a GP report do not stop the clock, supporting the key point."
+    }
+  ],
+  "id": "E38",
+  "reply": {
+    "abstained": false,
+    "abstention_reason": "",
+    "answer_text": "No. Where a case is pended awaiting a GP report, that is a third-party pend (code `P-3P`) \u2014 an internal reason. The SLA clock does not stop; it continues to run. The clock stops only if the pend is on the customer's side, such as waiting for documents or a decision from the customer. The case must still progress through its chase cycle: chase at day 10, day 20, and close or escalate at day 30.",
+    "citations": [
+      {
+        "chunk_id": "07-RUNBOOK:4.2",
+        "citation_style": "aldercrest_standard",
+        "effective_note": null,
+        "version": 1
+      }
+    ],
+    "guardrail_events": [],
+    "tools_used": [
+      "retrieve_clause"
+    ]
+  },
+  "retrieved": [
+    {
+      "chunk_id": "06-RAGOPS:3.6",
+      "rank": 1,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "07-RUNBOOK:4.1",
+      "rank": 2,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "07-RUNBOOK:4.2",
+      "rank": 3,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:5",
+      "rank": 4,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:II.4.4",
+      "rank": 5,
+      "score": 1.0,
+      "version": 1
+    }
+  ],
+  "tier": "O",
+  "trace_id": "baseline-038"
+}

@@ -1,0 +1,66 @@
+{
+  "answer_keys": [
+    {
+      "covered": false,
+      "key": "excluded while policy held",
+      "reason": "The assistant answer covers the key fact ('excluded while policy held') but goes significantly beyond it by explaining when the exclusion ends and registration becomes mandatory, which transforms the answer into a more complex conditional statement rather than a straightforward coverage of the basic exclusion principle requested."
+    },
+    {
+      "covered": true,
+      "key": "ends 2 yrs post-claim",
+      "reason": "The assistant's answer explicitly states that the TRS exclusion for pure-protection trusts 'ends if trustees hold the proceeds beyond 2 years from death,' which directly covers the key point that the exclusion ends 2 years post-claim."
+    }
+  ],
+  "id": "E15",
+  "reply": {
+    "abstained": false,
+    "abstention_reason": "",
+    "answer_text": "A pure-protection trust is excluded from Trust Registration Service (TRS) registration while the policy is held \u2014 so it normally does not need to register. The exclusion applies to trusts holding only a life policy that pays out solely on death, terminal illness, critical illness or disability. However, the exclusion ends if trustees hold the proceeds beyond 2 years from death \u2014 in that case the trust becomes registrable and must register within 90 days.",
+    "citations": [
+      {
+        "chunk_id": "01-WOL:12.3",
+        "citation_style": "cite_source",
+        "effective_note": null,
+        "version": 1
+      }
+    ],
+    "guardrail_events": [],
+    "tools_used": [
+      "retrieve_clause"
+    ]
+  },
+  "retrieved": [
+    {
+      "chunk_id": "01-WOL:12.3",
+      "rank": 1,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "06-RAGOPS:3.1",
+      "rank": 2,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:5",
+      "rank": 3,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "02-BOND:12.6",
+      "rank": 4,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "03-PEN:14.2",
+      "rank": 5,
+      "score": 1.0,
+      "version": 1
+    }
+  ],
+  "tier": "R",
+  "trace_id": "baseline-006"
+}

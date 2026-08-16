@@ -1,0 +1,66 @@
+{
+  "answer_keys": [
+    {
+      "covered": true,
+      "key": "30 days",
+      "reason": "The assistant answer explicitly states '30-day grace period from a missed premium', which directly covers the answer key of '30 days'."
+    },
+    {
+      "covered": true,
+      "key": "claim paid net of premium",
+      "reason": "The assistant's answer explicitly states that if a claim is paid during the grace period, it is paid net of the outstanding premium, which directly covers the key point."
+    }
+  ],
+  "id": "E01",
+  "reply": {
+    "abstained": false,
+    "abstention_reason": "",
+    "answer_text": "There's a 30-day grace period from a missed premium. Cover continues during the grace period. If a claim is paid during the grace period, it's paid net of the outstanding premium.",
+    "citations": [
+      {
+        "chunk_id": "01-WOL:3.10",
+        "citation_style": "aldercrest_standard",
+        "effective_note": null,
+        "version": 1
+      }
+    ],
+    "guardrail_events": [],
+    "tools_used": [
+      "retrieve_clause"
+    ]
+  },
+  "retrieved": [
+    {
+      "chunk_id": "01-WOL:3.10",
+      "rank": 1,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "06-RAGOPS:3.1",
+      "rank": 2,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:III.2",
+      "rank": 3,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:III.1",
+      "rank": 4,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:3.6",
+      "rank": 5,
+      "score": 1.0,
+      "version": 1
+    }
+  ],
+  "tier": "R",
+  "trace_id": "baseline-001"
+}

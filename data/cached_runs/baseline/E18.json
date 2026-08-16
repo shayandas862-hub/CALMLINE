@@ -1,0 +1,66 @@
+{
+  "answer_keys": [
+    {
+      "covered": true,
+      "key": "outstanding loan in",
+      "reason": "The assistant clearly states that the estate contains the 'outstanding loan balance,' which directly covers the answer key's requirement of 'outstanding loan in' being part of what is in the estate."
+    },
+    {
+      "covered": true,
+      "key": "growth out",
+      "reason": "The assistant answer clearly states that 'The bond's growth is **outside** the estate,' which directly covers the key point that growth is 'out' (outside the estate) in a loan trust arrangement."
+    }
+  ],
+  "id": "E18",
+  "reply": {
+    "abstained": false,
+    "abstention_reason": "",
+    "answer_text": "In a loan trust, the estate contains the **outstanding loan balance** only. The bond's growth is **outside** the estate. The settlor's 5% withdrawals typically fund loan repayments; if those repayments are spent, they don't re-enter the estate. If repayments are retained, they do re-enter it. On the settlor's death, the trustees must repay or settle the outstanding loan as an estate asset.",
+    "citations": [
+      {
+        "chunk_id": "02-BOND:12.2",
+        "citation_style": "mixed_explain",
+        "effective_note": null,
+        "version": 1
+      }
+    ],
+    "guardrail_events": [],
+    "tools_used": [
+      "retrieve_clause"
+    ]
+  },
+  "retrieved": [
+    {
+      "chunk_id": "02-BOND:12.2",
+      "rank": 1,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "06-RAGOPS:3.2",
+      "rank": 2,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:4.2",
+      "rank": 3,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:4.3",
+      "rank": 4,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:9b",
+      "rank": 5,
+      "score": 1.0,
+      "version": 1
+    }
+  ],
+  "tier": "M",
+  "trace_id": "baseline-017"
+}

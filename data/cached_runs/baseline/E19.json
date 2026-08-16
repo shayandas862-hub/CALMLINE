@@ -1,0 +1,102 @@
+{
+  "answer_keys": [
+    {
+      "covered": true,
+      "key": "20/40/45 now",
+      "reason": "The assistant clearly states the current tax rates on bond gains are 20%, 40%, and 45%, which directly covers the answer key requirement."
+    },
+    {
+      "covered": false,
+      "key": "22/42/47 from 6 Apr 2027",
+      "reason": "The assistant answer correctly states the 22/42/47 rates from 6 April 2027, but the question asks specifically about tax rates 'today vs 2027/28', and the assistant's answer is dated to 13 July 2026, making it unclear whether the answer addresses the actual 'today' timeframe of the question or demonstrates current awareness of when this evaluation is occurring."
+    }
+  ],
+  "id": "E19",
+  "reply": {
+    "abstained": false,
+    "abstention_reason": "",
+    "answer_text": "On a bond gain as at 13 July 2026, the rates are 20%, 40%, and 45%.\n\nFrom 6 April 2027, these will rise to 22%, 42%, and 47%.\n\nWhen the event happens determines which rate applies.",
+    "citations": [
+      {
+        "chunk_id": "02-BOND:4.5",
+        "citation_style": "cite_source",
+        "effective_note": null,
+        "version": 1
+      },
+      {
+        "chunk_id": "02-BOND:4.6",
+        "citation_style": "effective_date_required",
+        "effective_note": "Effective from 6 April 2027",
+        "version": 1
+      }
+    ],
+    "guardrail_events": [],
+    "tools_used": [
+      "retrieve_clause"
+    ]
+  },
+  "retrieved": [
+    {
+      "chunk_id": "02-BOND:12.4",
+      "rank": 1,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "05-OPS:21",
+      "rank": 2,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "06-RAGOPS:3.2",
+      "rank": 3,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "06-RAGOPS:3.4",
+      "rank": 1,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "02-BOND:1",
+      "rank": 5,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "02-BOND:4.5",
+      "rank": 1,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "02-BOND:4.4",
+      "rank": 4,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "02-BOND:III.2",
+      "rank": 5,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "02-BOND:4.6",
+      "rank": 2,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "06-RAGOPS:2.2",
+      "rank": 3,
+      "score": 1.0,
+      "version": 1
+    }
+  ],
+  "tier": "T",
+  "trace_id": "baseline-025"
+}

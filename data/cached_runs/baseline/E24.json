@@ -1,0 +1,71 @@
+{
+  "answer_keys": [
+    {
+      "covered": true,
+      "key": "none now",
+      "reason": "The assistant's answer clearly covers the key point that there is 'none now' \u2014 it explicitly states that as of 13 July 2026, unused pension funds are not yet in the estate for IHT purposes, directly confirming the current position of no IHT on unused pensions."
+    },
+    {
+      "covered": true,
+      "key": "in estate from 6 Apr 2027",
+      "reason": "The assistant clearly states the key fact that unused pension funds will be in the estate for IHT purposes from 6 April 2027, which directly covers the answer key requirement."
+    },
+    {
+      "covered": true,
+      "key": "spouse/charity exempt",
+      "reason": "The assistant clearly states that 'spouse/civil-partner and charity exemptions continue' when addressing IHT treatment of unused pension funds, directly covering the key point that spouse/charity exemptions apply."
+    }
+  ],
+  "id": "E24",
+  "reply": {
+    "abstained": false,
+    "abstention_reason": "",
+    "answer_text": "As at 13 July 2026, unused pension funds are not yet in the estate for IHT purposes. However, from 6 April 2027 \u2014 just under nine months away \u2014 the rule changes. From that date, most unused pension funds and death benefits will fall within the estate for IHT, though spouse/civil-partner and charity exemptions continue. This is a legislated change. You should plan ahead with a financial or tax adviser if you expect this to affect your estate.",
+    "citations": [
+      {
+        "chunk_id": "03-PEN:9.6",
+        "citation_style": "cite_source",
+        "effective_note": "6 April 2027",
+        "version": 1
+      }
+    ],
+    "guardrail_events": [],
+    "tools_used": [
+      "retrieve_clause"
+    ]
+  },
+  "retrieved": [
+    {
+      "chunk_id": "03-PEN:9.6",
+      "rank": 1,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "03-PEN:III.2",
+      "rank": 2,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "05-OPS:8.3",
+      "rank": 3,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "06-RAGOPS:3.4",
+      "rank": 4,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:1",
+      "rank": 5,
+      "score": 1.0,
+      "version": 1
+    }
+  ],
+  "tier": "T",
+  "trace_id": "baseline-027"
+}

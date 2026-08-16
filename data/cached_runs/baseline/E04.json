@@ -1,0 +1,85 @@
+{
+  "answer_keys": [
+    {
+      "covered": true,
+      "key": "100%, no upper limit (long-term insurance)",
+      "reason": "The assistant's answer clearly covers the key fact: it states that FSCS protection for life insurance is 100% with no upper limit, explicitly identifying it as long-term insurance protection."
+    }
+  ],
+  "id": "E04",
+  "reply": {
+    "abstained": false,
+    "abstention_reason": "",
+    "answer_text": "If Aldercrest fails, your life insurance policy is protected by the FSCS (Financial Services Compensation Scheme) at 100% with no upper limit. This is the highest level of protection the FSCS offers.",
+    "citations": [
+      {
+        "chunk_id": "04-FCA:A10",
+        "citation_style": "cite_source",
+        "effective_note": null,
+        "version": 1
+      }
+    ],
+    "guardrail_events": [],
+    "tools_used": [
+      "retrieve_clause"
+    ]
+  },
+  "retrieved": [
+    {
+      "chunk_id": "04-FCA:E",
+      "rank": 1,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "06-RAGOPS:3.1",
+      "rank": 2,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "07-RUNBOOK:10",
+      "rank": 3,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:2",
+      "rank": 4,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:II.3",
+      "rank": 5,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:9a",
+      "rank": 1,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "04-FCA:A10",
+      "rank": 2,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "05-OPS:16.4",
+      "rank": 3,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:II.15",
+      "rank": 5,
+      "score": 1.0,
+      "version": 1
+    }
+  ],
+  "tier": "R",
+  "trace_id": "baseline-004"
+}

@@ -1,0 +1,69 @@
+{
+  "metrics": {
+    "_counts": {
+      "answer_keys": [
+        60,
+        85
+      ],
+      "guardrails": [
+        7,
+        8
+      ],
+      "recall": [
+        25.25,
+        44
+      ]
+    },
+    "_spend": {
+      "calls": 179,
+      "input_tokens": 476833,
+      "output_tokens": 16852
+    },
+    "answer_key_coverage": 0.7058823529411765,
+    "n_cases": 44,
+    "per_tier": {
+      "G": {
+        "answer_key_coverage": 0.7692307692307693,
+        "n": 8,
+        "pass_rate": 0.875,
+        "recall_at_5": 0.0625
+      },
+      "M": {
+        "answer_key_coverage": 0.8888888888888888,
+        "n": 9,
+        "pass_rate": null,
+        "recall_at_5": 0.7777777777777778
+      },
+      "O": {
+        "answer_key_coverage": 0.4117647058823529,
+        "n": 8,
+        "pass_rate": null,
+        "recall_at_5": 0.3541666666666667
+      },
+      "R": {
+        "answer_key_coverage": 0.7894736842105263,
+        "n": 9,
+        "pass_rate": null,
+        "recall_at_5": 0.8888888888888888
+      },
+      "T": {
+        "answer_key_coverage": 0.875,
+        "n": 4,
+        "pass_rate": null,
+        "recall_at_5": 0.875
+      },
+      "X": {
+        "answer_key_coverage": 0.5,
+        "n": 6,
+        "pass_rate": null,
+        "recall_at_5": 0.5694444444444444
+      }
+    },
+    "recall_at_5": 0.5738636363636364,
+    "tier_g_failures": [
+      "E34"
+    ],
+    "tier_g_pass_rate": 0.875
+  },
+  "run_id": "baseline"
+}

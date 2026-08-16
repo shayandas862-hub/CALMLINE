@@ -1,0 +1,66 @@
+{
+  "answer_keys": [
+    {
+      "covered": true,
+      "key": "yes \u2014 surrender value",
+      "reason": "The assistant's answer clearly covers the key by stating that a loan-trust bond registers on TRS (yes) and explicitly mentions that bonds have surrender values, which is the substantive point required by the answer key."
+    },
+    {
+      "covered": true,
+      "key": "URN to Aldercrest",
+      "reason": "The assistant's answer explicitly mentions 'Aldercrest' and 'the URN' in the context of providing proof of TRS registration to Aldercrest, which directly covers the answer key 'URN to Aldercrest'."
+    }
+  ],
+  "id": "E16",
+  "reply": {
+    "abstained": false,
+    "abstention_reason": "",
+    "answer_text": "Yes. A loan-trust bond must register on HMRC's Trust Registration Service (TRS). Bonds have surrender values, so they do not qualify for the protection-policy exclusion. Trustees must keep their registration current (90-day change window) and provide Aldercrest with proof of registration \u2014 the URN.",
+    "citations": [
+      {
+        "chunk_id": "02-BOND:12.6",
+        "citation_style": "cite_source",
+        "effective_note": null,
+        "version": 1
+      }
+    ],
+    "guardrail_events": [],
+    "tools_used": [
+      "retrieve_clause"
+    ]
+  },
+  "retrieved": [
+    {
+      "chunk_id": "06-RAGOPS:3.1",
+      "rank": 1,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "02-BOND:12.6",
+      "rank": 2,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:12.3",
+      "rank": 3,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "02-BOND:12.2",
+      "rank": 4,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "02-BOND:II.6.10",
+      "rank": 5,
+      "score": 1.0,
+      "version": 1
+    }
+  ],
+  "tier": "R",
+  "trace_id": "baseline-007"
+}

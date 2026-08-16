@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CalmLine — operational console</title>
+<link rel="stylesheet" href="/static/console.css">
+</head>
+<body>
+<div class="shell">
+  <header class="top hidden" id="topbar">
+    <div class="wordmark"><span class="pulse" aria-hidden="true"></span> CalmLine
+      <small id="roleLabel">operational console — offline demo</small></div>
+    <div class="top-right">
+      <span class="role-chip" id="roleChip"></span>
+      <button class="linkbtn" onclick="logout()">Switch desk</button>
+    </div>
+  </header>
+
+  <!-- ── LOGIN ────────────────────────────────────────────── -->
+  <section class="login" id="view-login">
+    <h1>CalmLine console</h1>
+    <p>Monday morning. Sign in to your desk.</p>
+    <div class="roles">
+      <button class="rolecard" onclick="login('front_office')">
+        <div class="rname">Front office</div>
+        <div class="rdesc">Take the call — look up a policy, ask CalmLine, raise a case.</div>
+      </button>
+      <button class="rolecard" onclick="login('back_office')">
+        <div class="rname">Back office</div>
+        <div class="rdesc">Work the queue — review cases, run the checks, approve payments.</div>
+      </button>
+      <button class="rolecard" onclick="login('ops')">
+        <div class="rname">Ops</div>
+        <div class="rdesc">Oversee the whole operation — compliance, throughput, and system health.</div>
+      </button>
+    </div>
+  </section>
+
+  <!-- ── FRONT OFFICE ─────────────────────────────────────── -->
+  <section class="hidden" id="view-fo">
+    <div class="lookup-bar">
+      <input class="pol" id="polInput" placeholder="policy number or policyholder name"
+             autocomplete="off" onkeydown="if(event.key==='Enter')lookup()">
+      <button class="btn btn-primary" onclick="lookup()">Find the policy →</button>
+      <span style="color:var(--text-3);font-size:12px">A fragment works — part of the number, or a name.</span>
+    </div>
+    <div id="foBody">
+      <div class="empty"><b>Find the caller's policy to begin.</b><br>
+        Ask for their policy number — or search by name. The record itself
+        opens only after the caller is verified.</div>
+    </div>
+  </section>
+
+  <!-- ── BACK OFFICE ──────────────────────────────────────── -->
+  <section class="hidden" id="view-bo">
+    <div class="bo-grid">
+      <div class="card">
+        <h3>Work queue <span style="color:var(--text-3);font-weight:400;text-transform:none;letter-spacing:0">— cases awaiting a human decision</span></h3>
+        <div id="queueBody"><div class="empty">No cases yet — raise one from the front office.</div></div>
+      </div>
+      <div id="caseBody"></div>
+    </div>
+  </section>
+
+  <!-- ── OPS ───────────────────────────────────────────────── -->
+  <section class="hidden" id="view-ops">
+    <div class="ops-head">
+      <div class="lens-tabs">
+        <button class="lenstab active" id="tab-safety" onclick="setLens('safety')">Safety &amp; gates</button>
+        <button class="lenstab" id="tab-grounding" onclick="setLens('grounding')">Grounding &amp; freshness</button>
+        <button class="lenstab" id="tab-operations" onclick="setLens('operations')">Operations</button>
+      </div>
+      <button class="linkbtn" onclick="loadOps()">↻ Refresh</button>
+    </div>
+    <div id="opsBody"><div class="empty">Loading the board…</div></div>
+  </section>
+
+  <footer class="disc">
+    <strong>Fictional demonstration.</strong> CalmLine and Aldercrest Life Assurance plc do not exist.
+    Every policyholder, number and payment is invented; no real people and no real money.
+    Not a real insurer, <strong>not authorised or regulated by the FCA or PRA</strong>, and not financial,
+    legal or tax advice.
+    <br>
+    <strong>Please do not type real personal information into this demo</strong> — there is no reason to,
+    and nothing here is a real account.
+    <br>
+    The AI checks; a human decides; the system records.
+    <span id="modeNote">Every answer says which path produced it.</span>
+    <br>
+    <small>Privacy: this demo records your IP address briefly to enforce rate limits, and sends
+    what you type to the AI providers that answer it. No accounts, no tracking, no analytics,
+    nothing kept beyond what the rate limiter and the host's short-term logs need.</small>
+  </footer>
+</div>
+<div class="toast" id="toast"></div>
+<script src="/static/console.js"></script>
+<script src="/static/console-authority.js"></script>
+<script src="/static/console-verify.js"></script>
+<script src="/static/console-ops.js"></script>
+</body>
+</html>

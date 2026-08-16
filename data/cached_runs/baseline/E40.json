@@ -1,0 +1,71 @@
+{
+  "answer_keys": [
+    {
+      "covered": true,
+      "key": "do not pay",
+      "reason": "The assistant's answer clearly covers the key instruction 'do not pay' by stating 'No. Do not pay' at the outset, explicitly instructing not to proceed with payment when CoP returns 'no match'."
+    },
+    {
+      "covered": false,
+      "key": "APP indicator",
+      "reason": "The assistant's answer discusses fraud indicators and payment holds but does not explicitly mention or reference the 'APP indicator' (Authorised Push Payment) that is the specific answer key being tested."
+    },
+    {
+      "covered": true,
+      "key": "re-verify independently",
+      "reason": "The assistant's answer clearly covers the key requirement to 're-verify independently' \u2014 it explicitly states 'Re-verify the payee details independently before proceeding' as the required action when CoP returns 'no match'."
+    }
+  ],
+  "id": "E40",
+  "reply": {
+    "abstained": false,
+    "abstention_reason": "",
+    "answer_text": "No. Do not pay. A 'no match' on Confirmation of Payee is treated as a potential fraud indicator. Re-verify the payee details independently before proceeding, and extend the payment hold. The standard hold on first payment to a new account is 2 business days; a manager may extend it if there's a documented reason.",
+    "citations": [
+      {
+        "chunk_id": "07-RUNBOOK:5.3",
+        "citation_style": "mixed_explain",
+        "effective_note": null,
+        "version": 1
+      }
+    ],
+    "guardrail_events": [],
+    "tools_used": [
+      "retrieve_clause"
+    ]
+  },
+  "retrieved": [
+    {
+      "chunk_id": "06-RAGOPS:3.6",
+      "rank": 1,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "07-RUNBOOK:5.3",
+      "rank": 2,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:III.3",
+      "rank": 3,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:II.9.1",
+      "rank": 4,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:II.8",
+      "rank": 5,
+      "score": 1.0,
+      "version": 1
+    }
+  ],
+  "tier": "O",
+  "trace_id": "baseline-040"
+}

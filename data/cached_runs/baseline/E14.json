@@ -1,0 +1,66 @@
+{
+  "answer_keys": [
+    {
+      "covered": true,
+      "key": "own-life in business trust + cross-option",
+      "reason": "The assistant answer clearly covers both elements of the key: it explicitly mentions 'own-life Lifelong Protection policy written in a business trust' and 'cross-option agreement' with description of put and call options, covering the substance of the required answer."
+    },
+    {
+      "covered": true,
+      "key": "BR preserved",
+      "reason": "The assistant answer clearly covers the key point that Business Relief is preserved, explicitly stating 'This structure preserves Business Relief on the shares' within the context of the three-shareholder protection arrangement described."
+    }
+  ],
+  "id": "E14",
+  "reply": {
+    "abstained": false,
+    "abstention_reason": "",
+    "answer_text": "For business protection with three shareholders, each owner takes out an own-life Lifelong Protection policy written in a business trust for the co-owners. The cross-option agreement gives the estate a put option (the right to sell the shares) and the surviving shareholders a call option (the right to buy). This structure preserves Business Relief on the shares. When one shareholder dies, the trustees receive the policy proceeds and the survivors can buy the shares under the option.",
+    "citations": [
+      {
+        "chunk_id": "01-WOL:12.4",
+        "citation_style": "mixed_explain",
+        "effective_note": null,
+        "version": 1
+      }
+    ],
+    "guardrail_events": [],
+    "tools_used": [
+      "retrieve_clause"
+    ]
+  },
+  "retrieved": [
+    {
+      "chunk_id": "06-RAGOPS:3.3",
+      "rank": 1,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:12.4",
+      "rank": 2,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:1",
+      "rank": 3,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:5",
+      "rank": 4,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:II.6.13",
+      "rank": 5,
+      "score": 1.0,
+      "version": 1
+    }
+  ],
+  "tier": "X",
+  "trace_id": "baseline-021"
+}

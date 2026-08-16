@@ -1,0 +1,30 @@
+{
+  "answer_keys": [
+    {
+      "covered": false,
+      "key": "warn it voids FP2016",
+      "reason": "The assistant's answer does not warn that setting up \u00a3200/month payments would void the FP2016 product, which is the key requirement. Instead, the assistant deflects to the operations team and questions the product code without addressing the compliance warning."
+    },
+    {
+      "covered": false,
+      "key": "refer \u2014 do not process",
+      "reason": "The assistant's answer does not clearly cover the 'refer \u2014 do not process' key; while it declines to process the request, it adds uncertain language about the product code that could imply the assistant might process it if the product were clarified, rather than definitively referring the entire request."
+    }
+  ],
+  "id": "E21",
+  "reply": {
+    "abstained": true,
+    "abstention_reason": "Product code FP2016 is not recognised in the knowledge base. Cannot retrieve rules for setting up payments without knowing the correct product.",
+    "answer_text": "I'm not able to set up payments. That needs to be done by our operations team. Please contact them with the client's details and the payment amount you need. The product code FP2016 is not one I can look up \u2014 could you confirm the correct product name?",
+    "citations": [],
+    "guardrail_events": [
+      "retrieve_clause refused: unknown product 'FP2016': expected one of ['horizon_bond', 'lifelong_protection', 'retirement_account']"
+    ],
+    "tools_used": [
+      "retrieve_clause"
+    ]
+  },
+  "retrieved": [],
+  "tier": "G",
+  "trace_id": "baseline-029"
+}

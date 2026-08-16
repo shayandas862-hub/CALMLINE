@@ -1,0 +1,137 @@
+{
+  "answer_keys": [
+    {
+      "covered": false,
+      "key": "1 month",
+      "reason": "The answer key requires '1 month' as a standalone fact, but the assistant provides three separate timeframes (one calendar month for SAR, 8 weeks for complaint, 72 hours for breach) without clearly stating which one corresponds to the answer key's '1 month' or why that specific period is the answer being sought."
+    },
+    {
+      "covered": false,
+      "key": "8 weeks",
+      "reason": "The assistant states the complaint deadline is '8 weeks' but this is factually incorrect\u2014complaints under ICOBS have an 8-week response deadline from the complaint date (2 May), which would be 27 June, not '8 weeks' as a standalone timeframe. The assistant conflates the response deadline with the duration itself without clearly stating that the 8-week period is the applicable timescale for handling the complaint, making the coverage of the key ambiguous and potentially misleading."
+    },
+    {
+      "covered": true,
+      "key": "72h with no weekend pause",
+      "reason": "The assistant explicitly states that the breach discovered Friday 18:00 must be reported to the ICO by Monday 18:00, correctly identifying this as '72 hours; calendar time, no weekend pause,' which directly covers the key requirement."
+    }
+  ],
+  "id": "E30",
+  "reply": {
+    "abstained": false,
+    "abstention_reason": "",
+    "answer_text": "SAR received 30 June: respond by 30 July (one calendar month). Complaint received 2 May: respond by 27 June (8 weeks). Breach discovered Friday 18:00: report to ICO by Monday 18:00 (72 hours; calendar time, no weekend pause).",
+    "citations": [
+      {
+        "chunk_id": "05-OPS:4.7",
+        "citation_style": "cite_source",
+        "effective_note": null,
+        "version": 1
+      },
+      {
+        "chunk_id": "01-WOL:II.11",
+        "citation_style": "cite_source",
+        "effective_note": null,
+        "version": 1
+      },
+      {
+        "chunk_id": "05-OPS:15",
+        "citation_style": "aldercrest_standard",
+        "effective_note": null,
+        "version": 1
+      }
+    ],
+    "guardrail_events": [],
+    "tools_used": [
+      "retrieve_clause"
+    ]
+  },
+  "retrieved": [
+    {
+      "chunk_id": "03-PEN:II.3",
+      "rank": 1,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "05-OPS:4.7",
+      "rank": 2,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "06-RAGOPS:3.1",
+      "rank": 3,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:5",
+      "rank": 4,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:II.3",
+      "rank": 5,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "05-OPS:21",
+      "rank": 1,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:II.11",
+      "rank": 2,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:II.14",
+      "rank": 3,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "02-BOND:II.14",
+      "rank": 4,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "02-BOND:III.5",
+      "rank": 5,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "05-OPS:15",
+      "rank": 1,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "04-FCA:A11",
+      "rank": 3,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "07-RUNBOOK:4.4",
+      "rank": 4,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "01-WOL:II.16",
+      "rank": 5,
+      "score": 1.0,
+      "version": 1
+    }
+  ],
+  "tier": "X",
+  "trace_id": "baseline-023"
+}

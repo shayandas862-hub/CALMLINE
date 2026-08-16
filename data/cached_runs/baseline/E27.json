@@ -1,0 +1,26 @@
+{
+  "answer_keys": [
+    {
+      "covered": false,
+      "key": "single fail = whole assessment fails",
+      "reason": "The assistant declined to answer the question, stating it lacks information about QA processes, when the answer key requires a specific definition of critical fail in QA (that a single fail means the whole assessment fails). The assistant's refusal to engage with the question means the required factual content was not covered."
+    },
+    {
+      "covered": false,
+      "key": "lists examples",
+      "reason": "The assistant did not provide any examples of critical fails in QA; instead, it declined to answer by stating lack of access to QA information, which does not cover the required answer key of 'lists examples'."
+    }
+  ],
+  "id": "E27",
+  "reply": {
+    "abstained": true,
+    "abstention_reason": "The question is outside the scope of insurance policy information available through this system. No relevant tools or knowledge base material apply to QA terminology.",
+    "answer_text": "I don't have access to information about QA processes or definitions of critical fails in quality assurance. I'm an assistant for a UK life insurer's customer-service console, and I can only answer questions about insurance policies and products using the insurer's policy documents. If you have a question about an insurance policy, product, or claim, I'd be happy to help with that instead.",
+    "citations": [],
+    "guardrail_events": [],
+    "tools_used": []
+  },
+  "retrieved": [],
+  "tier": "R",
+  "trace_id": "baseline-008"
+}

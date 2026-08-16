@@ -1,0 +1,114 @@
+{
+  "answer_keys": [
+    {
+      "covered": false,
+      "key": "segment vs partial comparison",
+      "reason": "The assistant mentions 'partial withdrawal' and 'surrendering whole segments' but does not clearly frame these as the two distinct methods of 'segment vs partial comparison' that should be explicitly compared. The answer treats them as alternatives rather than conducting a direct comparative analysis of segment selection versus partial withdrawal as parallel methodologies for the same withdrawal objective."
+    },
+    {
+      "covered": true,
+      "key": "excess-gain maths",
+      "reason": "The assistant answer explicitly addresses 'excess-gain maths' by discussing how a partial withdrawal would exceed the 5% cumulative allowance, creating a taxable gain, and contrasting this with segment surrender as an alternative method to produce a smaller artificial gain\u2014both of which require excess-gain calculations."
+    }
+  ],
+  "id": "E06",
+  "reply": {
+    "abstained": false,
+    "abstention_reason": "",
+    "answer_text": "There are two methods. A partial withdrawal of \u00a350k will likely exceed the 5% cumulative allowance by year 3, creating a taxable gain. Alternatively, surrendering whole segments may track real growth more efficiently and produce a smaller artificial gain. We present both before processing \u2014 the difference can be material. Either way, you'll receive a chargeable event certificate and we report to HMRC.",
+    "citations": [
+      {
+        "chunk_id": "02-BOND:III.2",
+        "citation_style": "mixed_explain",
+        "effective_note": null,
+        "version": 1
+      },
+      {
+        "chunk_id": "02-BOND:III.3",
+        "citation_style": "mixed_explain",
+        "effective_note": null,
+        "version": 1
+      },
+      {
+        "chunk_id": "05-OPS:8.2",
+        "citation_style": "mixed_explain",
+        "effective_note": null,
+        "version": 1
+      }
+    ],
+    "guardrail_events": [],
+    "tools_used": [
+      "retrieve_clause"
+    ]
+  },
+  "retrieved": [
+    {
+      "chunk_id": "06-RAGOPS:3.3",
+      "rank": 1,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "02-BOND:III.2",
+      "rank": 1,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "02-BOND:III.3",
+      "rank": 2,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "02-BOND:III.5",
+      "rank": 4,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "02-BOND:III.7",
+      "rank": 5,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "05-OPS:8.2",
+      "rank": 3,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "02-BOND:3.4",
+      "rank": 4,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "02-BOND:4.3",
+      "rank": 5,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "02-BOND:4.11",
+      "rank": 1,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "02-BOND:12.4",
+      "rank": 2,
+      "score": 1.0,
+      "version": 1
+    },
+    {
+      "chunk_id": "04-FCA:B8",
+      "rank": 4,
+      "score": 1.0,
+      "version": 1
+    }
+  ],
+  "tier": "M",
+  "trace_id": "baseline-010"
+}
